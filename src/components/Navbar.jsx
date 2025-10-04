@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-black dark:bg-black text-white dark:text-white shadow-lg transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-30">
+        <div className="flex items-center justify-between h-27 lg:h-30">
           {/* Logo */}
           <div className="flex-shrink-0">
             <img
@@ -65,10 +65,8 @@ const Navbar = () => {
 
             {/* Order Button */}
             <a
-              href="/#hire"
+              href="/#menu"
               className="flex items-center gap-2 bg-white dark:bg-white text-black dark:text-black font-semibold px-4 py-2 rounded-md shadow-md hover:bg-[#a45731] hover:text-white transition-all duration-200 text-sm lg:text-base"
-              target="_blank"
-              rel="noopener noreferrer"
             >
               <ShoppingCart size={18} />
               <span>Order Now</span>
@@ -123,11 +121,9 @@ const Navbar = () => {
               {/* Order Button (mobile) */}
               <div className="pt-4 border-t border-gray-800 mt-4">
                 <a
-                  href="/#hire"
+                  href="/#menu"
                   onClick={closeMenu}
                   className="flex items-center justify-center gap-2 bg-white dark:bg-white text-black dark:text-black font-semibold px-4 py-3 rounded-md shadow-md hover:bg-[#a45731] hover:text-white transition-all duration-200 w-full"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   <ShoppingCart size={18} />
                   <span>Order Now</span>

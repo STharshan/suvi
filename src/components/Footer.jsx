@@ -33,7 +33,7 @@ const Footer = () => {
             <div className="flex space-x-4 text-white justify-center bg-[#a45731] rounded-full p-2 w-8">
               {/* TikTok Icon */}
               <a
-                href="https://www.tiktok.com/@chocoholics.desserts"
+                href="https://www.tiktok.com/@maruthadytravels?_t=ZS-90H1Fz7EXeq&_r=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-black" // TikTok's color code

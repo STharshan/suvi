@@ -7,13 +7,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const categories = [
-  "Waffles",
-  "Brownies",
-  "Cookie Dough",
-  "Crepes",
-  "Gelato In A Tub or A Cone",
-  "Sundaes",
-  "Milkshakes",
+  "Badges & Stickers",
+  "Decoration Items & Perfume",
+  "Oils & Filters",
+  "vehicle parts and accessories",
+  "Light & wires",
+  "Sound & Electronic System",
 ];
 
 const allItems = [
@@ -314,10 +313,10 @@ const MainMenu = () => {
       {/* Title */}
       <div className="text-center mb-12" data-aos="fade-up">
         <h2 className="text-4xl md:text-6xl font-extrabold text-[#a45731] mb-4 tracking-wide">
-          Main Menu
+          Main List
         </h2>
         <p className="text-lg text-gray-600 dark:text-gray-300">
-          Explore our indulgent range of desserts, crafted with love
+          Explore our indulgent range of vehicle parts and accessories, crafted with love
         </p>
       </div>
 
