@@ -10,81 +10,61 @@ const categories = [
   "Badges & Stickers",
   "Decoration Items & Perfume",
   "Oils & Filters",
-  "vehicle parts and accessories",
+  "Vehicle parts and Accessories",
   "Light & wires",
   "Sound & Electronic System",
 ];
 
 const allItems = [
   {
-    title: "Nutty Professor",
-    category: "Waffles",
-    fullprice: "£10.50",
-    halfprice: "£8.50",
-    image: "/Nutty Professor Waffle.jpg",
+    title: "Nikal Shell",
+    category: "Vehicle parts and Accessories",
+    image: "/cell.png",
   },
   {
-    title: "Chocoholic Dream",
-    category: "Waffles",
-    fullprice: "£9.50",
-    halfprice: "£7.50",
-    image: "/Chocoholic Heaven Waffle.png",
+    title: "Kombu",
+    category: "Decoration Items & Perfume",
+    image: "/Kombu.jpeg",
   },
   {
-    title: "Strawberry Heaven",
-    category: "Waffles",
-    fullprice: "£10.00",
-    halfprice: "£8.00",
-    image: "/Strawberry Heaven Waffle.jpg",
+    title: "Glong Woofer",
+    category: "Sound & Electronic System",
+    image: "/box.jpeg",
   },
   {
-    title: "Waffle Mix n Match",
-    category: "Waffles",
-    fullprice: "£10.50",
-    halfprice: "£8.50",
-    image: "/Mix and Match Waffle-6.jpg",
+    title: "Nikal Items",
+    category: "Decoration Items & Perfume",
+    image: "/nikal.jpeg",
   },
   {
-    title: "Raspberry Heaven",
-    category: "Waffles",
-    fullprice: "£9.00",
-    halfprice: "£7.00",
-    image: "/Raspberry Heaven Waffle.jpg",
+    title: "Remote Key",
+    category: "Sound & Electronic System",
+    image: "/remote.jpeg",
   },
   {
-    title: "Banoffe Sensation",
-    category: "Waffles",
-    fullprice: "£9.50",
-    halfprice: "£7.50",
-    image: "/Banoffee Waffle.jpg",
+    title: "Remote",
+    category: "Sound & Electronic System",
+    image: "/key.jpeg",
   },
   {
-    title: "Kinder Surprise",
-    category: "Waffles",
-    fullprice: "£10.50",
-    halfprice: "£8.50",
-    image: "/Kinder Surprise Waffle.jpg",
+    title: "Shell Kombu",
+    category: "Decoration Items & Perfume",
+    image: "/kombu1.jpeg",
   },
   {
-    title: "Oreo Galore",
-    category: "Waffles",
-    fullprice: "£10.00",
-    halfprice: "£8.00",
-    image: "/Oreo Waffle.jpg",
+    title: "Key Hodler",
+    category: "Decoration Items & Perfume",
+    image: "/key1.jpeg",
   },
   {
-    title: "Lotus Biscoff",
-    category: "Waffles",
-    fullprice: "£10.00",
-    halfprice: "£8.00",
-    image: "/Biscoff Waffle.jpg",
+    title: "Malai",
+    category: "Decoration Items & Perfume",
+    image: "/malai.png",
   },
   {
-    title: "Minit Mania",
-    category: "Waffles",
-    fullprice: "£9.50",
-    halfprice: "£7.50",
-    image: "/Mint Mania Waffle.jpg",
+    title: "Country Badge",
+    category: "Badges & Stickers",
+    image: "/badge.png",
   },
   {
     title: "Strawbella",
@@ -355,7 +335,7 @@ const MainMenu = () => {
               <img
                 src={item.image}
                 alt={item.title}
-                className="w-50% mx-auto  xl:mt-2 rounded-lg h-56 object-cover transform transition-transform duration-500 hover:scale-110"
+                className="w-full mx-auto rounded-lg h-80 object-cover transform transition-transform duration-500 hover:scale-110"
               />
             </div>
 
@@ -365,7 +345,7 @@ const MainMenu = () => {
                 {item.title}
               </h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">{item.category}</p>
-              <div className="space-y-1">
+              {/* <div className="space-y-1">
                 <span className="block text-lg font-semibold text-[#a45731]">
                   Full: {item.fullprice}
                 </span>
@@ -374,7 +354,7 @@ const MainMenu = () => {
                     Half: {item.halfprice}
                   </span>
                 )}
-              </div>
+              </div> */}
             </div>
           </div>
         ))}
