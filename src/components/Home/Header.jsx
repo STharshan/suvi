@@ -26,7 +26,6 @@ const Header = () => {
           muted
           loop
           playsInline
-          style={{ filter: "brightness(0.5)" }} // Reduced brightness
         />
       </div>
 
@@ -39,7 +38,7 @@ const Header = () => {
         >
           Welcome to
           <p className="text-white mt-5"><span className="font-extrabold">Maruthady</span></p>
-          <p className="mt-5 font-extrabold">Travels & Stores</p>
+          <p className="mt-5 font-extrabold">Travels & Moters</p>
         </h1>
 
       </div>
