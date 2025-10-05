@@ -41,8 +41,8 @@ const AboutHeader = () => {
           {/* Right Side - Story Text */}
           <div data-aos="fade-left" className="text-left space-y-6">
             <h3 className="text-2xl font-semibold text-white">
-              At Maruthady Travels & Stores, we specialize in providing high-quality vehicle parts and accessories designed 
-              to keep your car running smoothly and safely. Whether you’re a professional mechanic, a fleet operator, or 
+              At <strong>Maruthady Travels & Moters</strong>, we specialize in providing high-quality vehicle parts and accessories designed 
+              to keep your Vehicle running smoothly and safely. Whether you’re a professional mechanic, a fleet operator, or 
               a car enthusiast, we deliver the right parts you need at competitive prices.
             </h3>
           </div>

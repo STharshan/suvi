@@ -99,7 +99,7 @@ const PrivateEvents = () => {
                   type="text"
                   id="fullName"
                   name="fullName"
-                  placeholder="suvirthan"
+                  placeholder="Enter Your Name"
                   value={formData.fullName}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border-2 border-[#a45731] rounded-md text-black dark:text-white dark:bg-black"
@@ -116,7 +116,7 @@ const PrivateEvents = () => {
                   type="text"
                   id="phoneNumber"
                   name="phoneNumber"
-                  placeholder="0775001384"
+                  placeholder="Enter Your Number"
                   value={formData.phoneNumber}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border-2 border-[#a45731] rounded-md text-black dark:text-white dark:bg-black"
@@ -133,7 +133,7 @@ const PrivateEvents = () => {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="suvirthan@gmail.com"
+                  placeholder="Enter Your Email"
                   value={formData.email}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border-2 border-[#a45731] rounded-md text-black dark:text-white dark:bg-black"
@@ -149,7 +149,7 @@ const PrivateEvents = () => {
                 <textarea
                   id="address"
                   name="address"
-                  placeholder="manipay"
+                  placeholder="Enter Your Address"
                   value={formData.address}
                   onChange={handleChange}
                   rows="2"
@@ -185,7 +185,7 @@ const PrivateEvents = () => {
                 <textarea
                   id="message"
                   name="message"
-                  placeholder="tell about your order details"
+                  placeholder="Tell About Your Order Details"
                   value={formData.message}
                   onChange={handleChange}
                   rows="3"

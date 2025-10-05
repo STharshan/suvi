@@ -14,9 +14,9 @@ const Footer = () => {
             src="/logo.png"
             alt="logo"
           />
-          <p className="text-md font-semibold text-gray-400 mb-4">
-            Where comfort meets crave-worthy. Bite into our signature burgers,
-            golden fries, and urban-inspired eats in the heart of the city.
+          <p className="text-md font-semibold text-gray-400 mb-4 mt-3">
+              At <strong>Maruthady Travels & Moters</strong>, we specialize in providing high-quality vehicle 
+              parts and accessories designed to keep your Vehicle running smoothly and safely.
           </p>
           <div className="flex gap-5">
             <div className="flex space-x-4 text-white justify-center bg-[#a45731] rounded-full p-2 w-8">
